@@ -34,7 +34,6 @@ const routes = [
         path: "articles/:name",
         element: <ArticlePage />,
       },
-      { path: "*", element: <NotFoundPage /> },
     ],
   },
   {
@@ -51,6 +50,10 @@ const routes = [
         element: <SignUpPage />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFoundPage />,
   },
 ];
 

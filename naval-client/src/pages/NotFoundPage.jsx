@@ -2,9 +2,8 @@ import { Link } from 'react-router-dom';
 
 function NotFoundPage() {
   return (
-    <div className="flex w-full flex-col gap-6">
-      <section className="border-y-2 border-[#8f7a3d]/45 bg-[#e6dcc3] px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
+    <div className="flex min-h-screen w-full items-center justify-center bg-[#e6dcc3] px-4 py-10 sm:px-6 lg:px-8">
+      <section className="w-full max-w-3xl text-center">
 
           {/* Big 404 display */}
           <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#6f5c28]">
@@ -37,7 +36,6 @@ function NotFoundPage() {
             </Link>
           </div>
 
-        </div>
       </section>
     </div>
   );
