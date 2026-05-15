@@ -27,6 +27,8 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import ArticleIcon from '@mui/icons-material/Article';
 
 const drawerWidth = 240;
+
+// ADDED the Articles navigation item here
 const dashboardNavItems = [
   {
     label: "Dashboard",
@@ -45,6 +47,12 @@ const dashboardNavItems = [
     title: "Users",
     to: "/dashboard/users",
     icon: PeopleIcon,
+  },
+  {
+    label: "Articles",
+    title: "Articles",
+    to: "/dashboard/articles",
+    icon: ArticleIcon,
   },
 ];
 
