@@ -44,7 +44,7 @@ function ArticlePage() {
             src={article.imageUrl} 
             alt={article.title} 
             className="mb-8 aspect-4/3 w-full rounded-[1.25rem] border-2 border-[#8f7a3d]/45 object-cover" 
-            />
+          />
 
           <div className="prose prose-sm max-w-none space-y-4 text-[#2f473d]">
             {article.content.map((paragraph, index) => (

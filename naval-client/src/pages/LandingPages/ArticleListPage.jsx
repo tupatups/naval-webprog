@@ -34,4 +34,4 @@ const ArticleListPage = () => {
   );
 }
 
-export default ArticleListPage
+export default ArticleListPage;
