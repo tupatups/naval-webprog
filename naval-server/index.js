@@ -9,9 +9,13 @@ const articleRoutes = require("./routes/articleRoutes");
 const app = express();
 connectDB();
 
-// ✅ CORS must be first, before any routes
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://127.0.0.1:5173"],
+  // Add your Vercel domain here!
+  origin: [
+    "http://localhost:5173", 
+    "http://127.0.0.1:5173",
+    "https://naval-webprog-client.vercel.app" 
+  ],
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
   methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"],
